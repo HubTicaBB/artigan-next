@@ -1,5 +1,7 @@
-const Home = () => {
-  return <div>Home page</div>;
+import { Login } from "@/src/components/Login/Login";
+
+const LoginPage = async () => {
+  return <Login />;
 };
 
-export default Home;
+export default LoginPage;
